@@ -1,0 +1,41 @@
+package com.example.demo.examples;
+
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+import java.security.PrivateKey;
+import java.security.cert.X509Certificate;
+
+public class CertificateDemo {
+	
+	final static class GeneratedCert {
+		public final PrivateKey privateKey;
+		public final X509Certificate certificate;
+		
+		public GeneratedCert(PrivateKey key, X509Certificate cert) {
+			this.privateKey = key;
+			this.certificate = cert;
+		}
+	}
+	
+	
+	/**
+	 * @param cnName The CN={name} of the certificate. When the certificate is for a domain it should be the domain name
+	 * @param domain Nullable. The DNS domain for the certificate.
+	 * @param issuer Issuer who signs this certificate. Null for a self-signed certificate
+	 * @param isCA   Can this certificate be used to sign other certificates
+	 * @return Newly created certificate with its private key
+	 */
+	private static GeneratedCert createCertificate(String cnName, String domain, 
+			GeneratedCert issuer, boolean isCa) {
+		KeyPair keyPair = generateKeyPary();
+		return null;
+	}
+	
+	
+	private static KeyPair generateKeyPary() throws NoSuchAlgorithmException {
+		KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
+		return keyPairGenerator.generateKeyPair();
+	}
+
+}

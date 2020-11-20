@@ -1,0 +1,6 @@
+
+public class DateClient {
+
+//	local proxy
+	protected static RemoteDate netConnection = null;
+}

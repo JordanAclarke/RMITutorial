@@ -1,0 +1,18 @@
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.util.Date;
+/*/
+ * Must list all the methods that will be callable from server
+ * by client
+ * Lookup name is an arbitrary name that is registered by server
+ * and lookedup by client to establish communication
+ * 
+ * This interface is the contract
+ */
+public interface RemoteDate extends Remote {
+
+	public Date getRemoteDate() throws RemoteException;
+	
+	public final static String LOOKUPNAME="RemoteDate";
+	public final static Integer PORT_NUMBER=6789;
+}

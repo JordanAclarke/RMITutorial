@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.security.PrivateKey"/>
+<fullyQualifiedTypeName name="java.security.cert.X509Certificate"/>
+<fullyQualifiedTypeName name="com.example.demo.examples.CertificateDemo.GeneratedCert"/>
+<fullyQualifiedTypeName name="java.security.KeyPairGenerator"/>
+<fullyQualifiedTypeName name="java.security.KeyPair"/>
+<fullyQualifiedTypeName name="org.bouncycastle.asn1.x500.X500Name"/>
+<fullyQualifiedTypeName name="java.time.Instant"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
+<fullyQualifiedTypeName name="org.bouncycastle.cert.jcajce.JcaX509v3CertificateBuilder"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.bouncycastle.asn1.x509.Extension"/>
+<fullyQualifiedTypeName name="org.bouncycastle.asn1.x509.GeneralName"/>
+<fullyQualifiedTypeName name="org.bouncycastle.asn1.x509.GeneralNames"/>
+<fullyQualifiedTypeName name="org.bouncycastle.operator.jcajce.JcaContentSignerBuilder"/>
+<fullyQualifiedTypeName name="org.bouncycastle.operator.ContentSigner"/>
+<fullyQualifiedTypeName name="org.bouncycastle.cert.X509CertificateHolder"/>
+<fullyQualifiedTypeName name="org.bouncycastle.cert.jcajce.JcaX509CertificateConverter"/>
+<fullyQualifiedTypeName name="org.bouncycastle.asn1.x509.BasicConstraints"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.security.KeyStore"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+</qualifiedTypeNameHistroy>

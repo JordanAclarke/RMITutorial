@@ -1,0 +1,18 @@
+package com.example.demo.examples;
+
+import java.security.PrivateKey;
+import java.security.cert.X509Certificate;
+
+public class CertificateDemo {
+	
+	final static class GeneratedCert {
+		public final PrivateKey privateKey;
+		public final X509Certificate certificate;
+		
+		public GeneratedCert(PrivateKey key, X509Certificate cert) {
+			this.privateKey = key;
+			this.certificate = cert;
+		}
+	}
+
+}
